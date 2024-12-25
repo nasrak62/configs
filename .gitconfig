@@ -1,0 +1,26 @@
+[core]
+	editor = code --wait
+	autocrlf = input
+[fetch]
+	prune = true
+[alias]
+	st = status
+	ci = commit -m
+	cia = commit --amend
+	co = checkout
+	br = branch
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	di = diff
+	pso = push origin
+	psfo = push -f origin
+	plo = pull origin
+[color]  
+    diff = auto  
+    status = auto  
+    branch = auto 
+[user]
+	name = SaarZaid
+	email = saar.zaidfunden@pipl.com
+[pull]
+	rebase = false
