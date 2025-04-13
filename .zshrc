@@ -11,6 +11,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
 export PATH="/usr/share/code/bin:$PATH"
 export PATH="/Users/saar.zaidfunden/Library/Python/3.8/bin:$PATH"
+export PATH="/Users/saar.zaidfunden/node-space/node-space/target/debug/node-space:$PATH"
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 
@@ -140,6 +141,7 @@ alias pyenv86="arch -x86_64 pyenv"
 alias gi-can_deploy="sh ~/scripts/can_deploy.sh"
 alias calculate_offset="sh ~/scripts/calculate_offset_per_min.sh"
 alias gi-black="py ~/scripts/current_black.py"
+alias kube="py ~/scripts/kube.py"
 alias gcprn="py ~/scripts/update_google_cred.py"
 alias class-to-file="py ~/scripts/class_to_file_name.py"
 alias sync_env="py ~/scripts/dotenv_sync.py"
@@ -149,6 +151,8 @@ alias python="python3"
 alias pip="pip3"
 alias developer_tools="/Users/saar.zaidfunden/dev/pipl/apps/developer-tools/developer_tools/target/debug/developer_tools"
 alias developer_tools2="/Users/saar.zaidfunden/dev/pipl/apps/developer-tools/scripts/developer_tools"
+alias node-space="/Users/saar.zaidfunden/node-space/node-space/target/debug/node-space"
+
 
 manage () {
   py manage.py $@
