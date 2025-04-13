@@ -1,5 +1,6 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  enabled = true,
   event = { "BufReadPre", "BufNewFile" },
   build = ":TSUpdate",
   dependencies = {
@@ -43,7 +44,6 @@ return {
         "vimdoc",
         "c",
         "rust",
-        "go",
         "python",
       },
       incremental_selection = {
