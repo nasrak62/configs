@@ -50,6 +50,9 @@ return {
         { name = "luasnip" }, -- snippets
         { name = "buffer" }, -- text within current buffer
         { name = "path" }, -- file system paths
+        per_filetype = {
+          codecompanion = { "codecompanion" },
+        },
       }),
 
       -- configure lspkind for vs-code like pictograms in completion menu
