@@ -1,0 +1,19 @@
+{
+  "providers": {
+    "llamacpp": {
+      "type": "openai-compatible",
+      "url": "http://127.0.0.1:8080/v1",
+      "key": "no-key-required",
+      "models": [
+        "qwen/qwen3.5-9b",
+        "qwen/qwen3.6-35b-a3b",
+        "qwen/qwen3.5-35b-a3b",
+        "google/gemma-4-e4b",
+        "google/gemma-4-26b-a4b",
+        "openai/gpt-oss-20b",
+        "google/gemma-4-31b"
+      ]
+    }
+  },
+  "defaultModel": "llamacpp/qwen/qwen3.5-9b"
+}

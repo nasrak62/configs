@@ -1,0 +1,39 @@
+{
+  "providers": {
+    "local-llama": {
+      "baseUrl": "http://127.0.0.1:8080/v1",
+      "api": "openai-completions",
+      "apiKey": "none",
+      "models": [
+        {
+          "id": "qwen/qwen3.5-9b",
+          "contextWindow": 256000
+        },
+        {
+          "id": "qwen/qwen3.6-35b-a3b",
+          "contextWindow": 256000
+        },
+        {
+          "id": "qwen/qwen3.5-35b-a3b",
+          "contextWindow": 256000
+        },
+        {
+          "id": "google/gemma-4-e4b",
+          "contextWindow": 262144
+        },
+        {
+          "id": "google/gemma-4-26b-a4b",
+          "contextWindow": 262144
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "contextWindow": 200000
+        },
+        {
+          "id": "google/gemma-4-31b",
+          "contextWindow": 262144
+        }
+      ]
+    }
+  }
+}

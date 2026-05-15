@@ -1,0 +1,5 @@
+{
+  "lastChangelogVersion": "0.74.0",
+  "defaultProvider": "local-llama",
+  "defaultModel": "qwen/qwen3.5-9b"
+}

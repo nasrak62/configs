@@ -1,0 +1,26 @@
+{
+  "skill_name": "append-system",
+  "evals": [
+    {
+      "id": 0,
+      "eval_name": "add_new_protocol_rule",
+      "prompt": "Add a rule to the system that says before any code change, ask the user for pseudocode for every step, every function, and API usage",
+      "expected_output": "The APPEND_SYSTEM.md file should be updated with a new section about asking for pseudocode before code changes",
+      "files": ["/home/nasrak62/.pi/agent/APPEND_SYSTEM.md"]
+    },
+    {
+      "id": 1,
+      "eval_name": "add_best_practice",
+      "prompt": "Add a best practice note about reviewing and verifying code before implementing it to ensure accuracy",
+      "expected_output": "A new best practices section should be appended to APPEND_SYSTEM.md with the review and verification guideline",
+      "files": ["/home/nasrak62/.pi/agent/APPEND_SYSTEM.md"]
+    },
+    {
+      "id": 2,
+      "eval_name": "update_existing_protocol",
+      "prompt": "Update the code change protocol to also include API integrations and external tool usage in the pseudocode requirement",
+      "expected_output": "The existing protocol section should be modified to expand the pseudocode requirement to include API integrations and external tools",
+      "files": ["/home/nasrak62/.pi/agent/APPEND_SYSTEM.md"]
+    }
+  ]
+}
