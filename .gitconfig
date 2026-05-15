@@ -1,5 +1,5 @@
 [core]
-	editor = code --wait
+	editor = vim
 	autocrlf = input
 [fetch]
 	prune = true
@@ -21,6 +21,6 @@
     branch = auto 
 [user]
 	name = SaarZaid
-	email = saar.zaidfunden@pipl.com
+	email = nasrak62@gmail.com
 [pull]
-	rebase = false
+	rebase = true
