@@ -1,0 +1,7 @@
+
+alias qwen="llama-server \
+-m ~/.lmstudio/models/lmstudio-community/Qwen3.5-9B-GGUF/Qwen3.5-9B-Q8_0.gguf \
+-c 262144   -ngl 99   -t 16   -ub 512   -np 1   -fa on   \
+--cache-type-k q8_0   --cache-type-v q8_0   \
+--mlock  \
+--mmap"
